@@ -1,0 +1,31 @@
+The model should be defined in sequential order, with no empty lines
+
+The format is as follows:
+###############################
+###############################
+
+Convolutional Layers
+
+If it is the first layer in the network:
+conv,filter size,number of filters,input channels,input width/height dims,padding,stride
+
+Otherwise:
+conv,filter size,number of filters,padding,stride
+
+_______________________________________
+
+Fully connected Layers
+
+fc,number of nodes,dropout percentage
+
+_______________________________________
+
+Relu Layers
+
+relu,alpha
+
+_______________________________________
+
+Pool layers
+
+pool,receptive field width/height,stride
